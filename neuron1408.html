@@ -17,6 +17,8 @@
 
     <!-- Custom CSS -->
     <link href="css/blog-post.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -170,83 +172,131 @@
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
+   <div class="well text-center">
+     <p class="lead">
+       Don't want to miss updates? Please click the below button!
+     </p>
+     <button class="btn btn-primary btn-lg">Subscribe to my feed</button>
+   </div>
 
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Blog Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
+   <div class="well">
+       <h4>Blog Search</h4>
+       <div class="input-group">
+         <script>
+         (function() {
+           var cx = '011906290031035704904:-o-3j3gb-bi';
+           var gcse = document.createElement('script');
+           gcse.type = 'text/javascript';
+           gcse.async = true;
+           gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+               '//www.google.com/cse/cse.js?cx=' + cx;
+           var s = document.getElementsByTagName('script')[0];
+           s.parentNode.insertBefore(gcse, s);
+         })();
+       </script>
+       <gcse:search></gcse:search>
+       </div>
+       <!-- /.input-group -->
+   </div>
 
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
+   <div class="panel panel-default">
+     <div class="panel-heading">
+       <h4>Latest Posts</h4>
+     </div>
+     <ul class="list-group">
+       <li class="list-group-item"><a href="singlepost.html">1. Identification of an ALS biomarker and a small molecule binding the GGGGCC repeat expansion</a></li>
+       <!--<li class="list-group-item"><a href="singlepost.html">2. </a></li>
+       <li class="list-group-item"><a href="singlepost.html">3. </a></li>
+       <li class="list-group-item"><a href="singlepost.html">4. </a></li>
+       <li class="list-group-item"><a href="singlepost.html">5. </a></li>-->
+     </ul>
+   </div>
 
+    <!-- Blog Categories Well -->
+    <div class="well">
+        <h4>Blog Categories</h4>
+        <div class="row">
+            <div class="col-lg-6">
+                <ul class="list-unstyled">
+                    <li><a href="#">Newest Research</a>
+                    </li>
+                    <li><a href="#">Pipeline</a>
+                    </li>
+                    <li><a href="#">Major Papers</a>
+                    </li>
+                </ul>
             </div>
-
+            <!-- /.col-lg-6
+            <div class="col-lg-6">
+                <ul class="list-unstyled">
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                </ul>
+            </div>
+             /.col-lg-6 -->
         </div>
         <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; ALS news 2014</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
     </div>
-    <!-- /.container -->
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Tags</h4>
+      </div>
+      <div class="panel-body">
+        <ul class="list-inline">
+          <li><a href="#">C9ORF72</a></li>
+          <li><a href="#">Small Molecules</a></li>
+          <li><a href="#">Biomarkers</a></li>
+          <!--<li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>-->
+</ul>
+</div>
+</div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Side Widget Well -->
+
+</div>
+
+</div>
+<!-- /.row -->
+
+<hr>
+
+<ul class="pager">
+    <li class="previous"><a href="index.html">← Back to posts</a></li>
+</ul>
+
+<!-- Footer -->
+<footer>
+<div class="row">
+    <div class="col-lg-12">
+        <p>Copyright &copy; ALS news 2014</p>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+</footer>
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 

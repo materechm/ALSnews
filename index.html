@@ -11,11 +11,9 @@
 
     <title>ALS news</title>
 
-    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/blog-home.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,13 +43,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About ALS</a>
+                        <a href="about.html">About ALS</a>
                     </li>
                     <li>
-                        <a href="#">Editorial</a>
+                        <a href="editorial.html">Editorial</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -73,19 +71,23 @@
                 </h1>
 
                 <!-- First Blog Post -->
+                <article>
                 <h2>
-                    <a href="#"></a>
+                Identification of an ALS biomarker and a small molecule binding the GGGGCC repeat expansion
+
                 </h2>
-                <p class="lead"> Identification of an ALS biomarker and a small molecule binding the GGGGCC repeat expansion
-                    by <a href="#">Maria Chavez</a>
+                <p class="lead"> by <a href="editorial.html">Maria Chavez</a>
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on August 15, 2014 at 9:00 PM</p>
                 <p>Researchers from The Scripps Research Institute and the Mayo Clinic identified a small molecule capable of stopping disease progression in a model of C9ORF72 linked FTD and ALS, which is the most common type of the diseases, caused by a GGGGCC repeat expansion in said gene. </p>
                 <a class="btn btn-primary" href="neuron1408.html">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
+              </article>
 
                 <!-- Second Blog Post
+
+                <article>
                 <h2>
                     <a href="#">Blog Post Title</a>
                 </h2>
@@ -99,9 +101,11 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quasi, fugiat, asperiores harum voluptatum tenetur a possimus nesciunt quod accusamus saepe tempora ipsam distinctio minima dolorum perferendis labore impedit voluptates!</p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
-                <hr> -->
+                <hr>
+              </article>-->
 
                 <!-- Third Blog Post
+                <article>
                 <h2>
                     <a href="#">Blog Post Title</a>
                 </h2>
@@ -115,7 +119,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptates, voluptas dolore ipsam cumque quam veniam accusantium laudantium adipisci architecto itaque dicta aperiam maiores provident id incidunt autem. Magni, ratione.</p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
-                <hr> -->
+                <hr>
+              </article> -->
 
                 <!-- Pager -->
                 <ul class="pager">
@@ -132,26 +137,45 @@
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                      <script>
-                      (function() {
-                        var cx = '011906290031035704904:-o-3j3gb-bi';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                            '//www.google.com/cse/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                      })();
-                    </script>
-                    <gcse:search></gcse:search>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
+               <div class="well text-center">
+                 <p class="lead">
+                   Don't want to miss updates? Please click the below button!
+                 </p>
+                 <button class="btn btn-primary btn-lg">Subscribe to my feed</button>
+               </div>
+
+               <div class="well">
+                   <h4>Blog Search</h4>
+                   <div class="input-group">
+                     <script>
+                     (function() {
+                       var cx = '011906290031035704904:-o-3j3gb-bi';
+                       var gcse = document.createElement('script');
+                       gcse.type = 'text/javascript';
+                       gcse.async = true;
+                       gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                           '//www.google.com/cse/cse.js?cx=' + cx;
+                       var s = document.getElementsByTagName('script')[0];
+                       s.parentNode.insertBefore(gcse, s);
+                     })();
+                   </script>
+                   <gcse:search></gcse:search>
+                   </div>
+                   <!-- /.input-group -->
+               </div>
+
+               <div class="panel panel-default">
+                 <div class="panel-heading">
+                   <h4>Latest Posts</h4>
+                 </div>
+                 <ul class="list-group">
+                   <li class="list-group-item"><a href="singlepost.html">1. Identification of an ALS biomarker and a small molecule binding the GGGGCC repeat expansion</a></li>
+                   <!--<li class="list-group-item"><a href="singlepost.html">2. </a></li>
+                   <li class="list-group-item"><a href="singlepost.html">3. </a></li>
+                   <li class="list-group-item"><a href="singlepost.html">4. </a></li>
+                   <li class="list-group-item"><a href="singlepost.html">5. </a></li>-->
+                 </ul>
+               </div>
 
                 <!-- Blog Categories Well -->
                 <div class="well">
@@ -184,6 +208,27 @@
                     </div>
                     <!-- /.row -->
                 </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4>Tags</h4>
+                  </div>
+                  <div class="panel-body">
+                    <ul class="list-inline">
+                      <li><a href="#">C9ORF72</a></li>
+                      <li><a href="#">Small Molecules</a></li>
+                      <li><a href="#">Biomarkers</a></li>
+                      <!--<li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>-->
+        </ul>
+    </div>
+</div>
+
 
                 <!-- Side Widget Well -->
 
