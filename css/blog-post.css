@@ -6,8 +6,46 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: Helvetica,sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
 }
 
 footer {
     margin: 50px 0;
+}
+
+h1 {
+  font-family: "Monospaced",Monaco;
+  font-size: 5em;
+  font-weight: bold;
+  color: #FF3333;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+a:link, a:visited {
+  color: #d9534f;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-bottom: 0.15em;
+  margin: 1.2em 0 .4em 0;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 1.2em 0 .6em 0;
+  color: #999
+}
+
+p {
+  font-size: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6em;
 }
